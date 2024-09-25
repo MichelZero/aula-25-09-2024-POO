@@ -14,10 +14,6 @@ class A:
   
   # set
   def setB(self, algo):
-    if algo % 2 == 0:
-      self._b = algo
-    else:
-      print(f"Erro: foi informado {algo}, informe um valor par!")
     
 
 a1 = A(2)
