@@ -8,7 +8,8 @@ class B:
     self.__a = value # atributo privado da classe B que só pode ser acessado por 
     # ela mesma e não por outras classes que a herdam ou instanciam
     self._b = 2 # atributo protegido da classe B que pode ser acessado por 
-    # outras classes que a herdam ou instanciam    
+    # outras classes que a herdam ou instanciam   
+    # link para entender o uso do self.__a e self._b -> https://www.geeksforgeeks.org/name-mangling-in-python/ 
     
   #get
   @property # decorator que permite acessar o atributo privado da classe B
